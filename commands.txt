@@ -1,0 +1,74 @@
+  cd ~
+ cd Documents
+ cd git_training
+ git clone https://github.com/testrusau/testrusau    
+ git add .               
+git commit -m “About me”
+git push
+git add .               
+git commit -m “Contacts”
+git push
+git add .               
+git commit -m "Social media"
+git push
+git add .               
+git commit -m "Test documentation"
+git push
+git add .               
+git commit -m "Web Application Testing"
+git push
+git add .               
+git commit -m "Mobile Application Testing"
+git push
+git add .               
+git commit -m "Working with data"
+git push
+git add .               
+git commit -m "Working with code"
+git push
+git push
+git add .               
+git commit -m "My portfolio"
+git push
+
+
+mkdir ~/Documents/checklist
+cd ~/Documents/checklist
+git init
+git add .
+git commit -m "added checklists"
+git remote add origin https://github.com/mayakartynnik/checklist.git 
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Initial commit"
+git push origin main
+
+
+mkdir ~/Documents/testcase
+cd ~/Documents/testcase 
+git init
+git add .
+git commit -m "added tests"
+git remote add origin https://github.com/mayakartynnik/testcase.git
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Initial commit"
+git push origin main
+
+---
+# Testing Artefacts
+- [CheckList](https://github.com/mayakartynnik/checklist)
+- [TestCase](https://github.com/mayakartynnik/testcase)
+- [BugReports](https://github.com/mayakartynnik/BugReport)
+- [APItests](https://github.com/mayakartynnik/apitests)
+- [SQL](https://github.com/mayakartynnik/SQL)
+- [TestReport](https://github.com/mayakartynnik/TestReport)
+
+git add .
+git commit -m "added test artifacts"
+git push origin main
+
+cd ~
+cd Documents
+touch commands.txt
+
